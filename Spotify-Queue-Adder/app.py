@@ -3,13 +3,13 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Spotify API credentials
-SPOTIFY_CLIENT_ID = "7a9f80272cb64de2b279e6276d24fc92"
-SPOTIFY_CLIENT_SECRET = "510e384899df41b98048fc1d8c29b192"
+SPOTIFY_CLIENT_ID = "ABC123" # Change this to your secret
+SPOTIFY_CLIENT_SECRET = "ABC123" # Change this to your secret
 SPOTIFY_REDIRECT_URI = "http://localhost:8888/callback"
 
 # Playlist and specific song URIs
-PLAYLIST_URI = "7qlDUKxZ3SK4kairaAsBN0"  # Playlist URI from the link
-SPECIFIC_SONG_URI = "spotify:track:4y8jTrIvvKKkL0vbn1jo6g"  # Specific song URI from the link
+PLAYLIST_URI = "ABC123"  # Playlist URI from the link
+SPECIFIC_SONG_URI = ""  # Specific song URI from the link
 NUMBER_OF_RANDOM_SONGS = 3
 
 scope = "user-read-playback-state user-modify-playback-state playlist-read-private"
